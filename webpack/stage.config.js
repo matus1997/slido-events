@@ -20,6 +20,7 @@ module.exports = (__env, { build }) => {
             new Webpack.DefinePlugin({
                 "process.env": {
                     "NODE_ENV": JSON.stringify(process.env.NODE_ENV || "development"),
+                    "GOOGLE_MAP_API_KEY": JSON.stringify(process.env.GOOGLE_MAP_API_KEY),
                 }
             }),
         ]

@@ -1,0 +1,23 @@
+@import "../../../../assets/styles/variables";
+@import "../../../../assets/styles/margins";
+
+.event-info {
+    flex-basis: 40%;
+
+    &__title {
+        @extend .mb-8;
+    }
+
+    &__subtitle {
+        @extend .mt-8, .mb-8;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+
+    @media only screen and (max-width: $mobile) {
+        margin-top: 24px;
+        flex-basis: 100%;
+    }
+}

@@ -1,2 +1,9 @@
+import { RouteComponentProps } from "react-router";
 
-export type EventListProps = any;
+import { EventState } from "../../../../contracts/event/EventState";
+
+export type EventListProps = RouteComponentProps<{ eventId?: string }>;
+
+export interface EventListProviderProps {
+    eventState: EventState;
+}
