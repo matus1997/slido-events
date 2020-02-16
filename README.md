@@ -59,3 +59,9 @@ npm run test
 * [React](https://github.com/facebook/react)
 * [MobX](https://github.com/mobxjs/mobx)
 * [InversifyJS](https://github.com/inversify/InversifyJS)
+
+## Why React&MobX
+
+The reason why I’ve chosen React & MobX combo is mostly that I’m most comfortable with using then both together and I've been working with those technologies for a long time.
+
+React is a great fit for this particular app as it's lightweight and in combination with MobX and Inversify  can provide a well scalable yet easy-to-understand codebase.
