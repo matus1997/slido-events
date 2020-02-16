@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Demo
 
-http://slido-events.netlify.com
+https://slido-events.netlify.com
 
 ### Prerequisites
 
